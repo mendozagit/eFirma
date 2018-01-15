@@ -16,9 +16,26 @@ Route::resource('/','IndexController');
 Route::resource('/csemestre','CsemestreController');
 Route::resource('/ccalificaciones','CcalificacionesController');
 Route::resource('/chorario','ChorarioController');
-
 Route::resource('/ckardex','CkardexController');
 Route::resource('/cvacaciones','CvacacionesController');
+
+Route::resource('/ventas','VentaController');
+
+Route::resource('/configFirmate','ConfigFirmateController');
+Route::resource('/configEspectador','ConfigEspectadorController');
+
+Route::resource('/firmados','ConstanciaFirmadaController');
+
+Route::resource('/validarce','ValidaCertificadoController');
+Route::resource('/validarco','ValidaConstanciaController');
+
+
+
+
+
+
+
+
 
 Route::get('/login', function () {
     return view('welcome');

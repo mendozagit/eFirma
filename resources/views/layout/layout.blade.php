@@ -245,8 +245,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Validar Certificados</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Validar Constancias</a></li>
+            <li><a href="validarce"><i class="fa fa-circle-o"></i> Validar Certificados</a></li>
+            <li><a href="validarco"><i class="fa fa-circle-o"></i> Validar Constancias</a></li>
 
           </ul>
         </li>
@@ -259,8 +259,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Constancias Firmadas</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Comprar Constancia</a></li>
+            <li><a href="firmados"><i class="fa fa-circle-o"></i> Constancias Firmadas</a></li>
+            <li><a href="ventas"><i class="fa fa-circle-o"></i> Comprar Constancia</a></li>
 
           </ul>
         </li>
@@ -273,8 +273,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Configurar Firmantes</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Configurar Espectadores</a></li>
+            <li><a href="configFirmate"><i class="fa fa-circle-o"></i> Configurar Firmantes</a></li>
+            <li><a href="configEspectador"><i class="fa fa-circle-o"></i> Configurar Espectadores</a></li>
 
           </ul>
         </li>
