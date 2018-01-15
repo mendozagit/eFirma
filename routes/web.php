@@ -13,7 +13,7 @@
 
 
 Route::resource('/','IndexController');
-Route::resource('/csemestre','IndexController');
+Route::resource('/csemestre','CsemestreController');
 Route::resource('/ccalificaciones','CcalificacionesController');
 Route::resource('/chorario','ChorarioController');
 
