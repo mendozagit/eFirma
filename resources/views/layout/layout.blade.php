@@ -24,7 +24,7 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="#" class="logo">
+    <a href="/" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini">
 
@@ -212,7 +212,7 @@
       <ul class="sidebar-menu">
         <li class="header">BARRA DE NAVEGACIÓN</li>
         <li class="treeview">
-          <a href="#">
+          <a href="/">
             <i class="fa fa-home"></i> <span>Principal</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
@@ -229,11 +229,11 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Por Semestre</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Con Calificaciones</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Con Vacaciones</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Con Horario</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Kardex Completo</a></li>
+            <li><a href="csemestre"><i class="fa fa-circle-o"></i> Por Semestre</a></li>
+            <li><a href="ccalificaciones"><i class="fa fa-circle-o"></i> Con Calificaciones</a></li>
+            <li><a href="cvacaciones"><i class="fa fa-circle-o"></i> Con Vacaciones</a></li>
+            <li><a href="chorario"><i class="fa fa-circle-o"></i> Con Horario</a></li>
+            <li><a href="ckardex"><i class="fa fa-circle-o"></i> Kardex Completo</a></li>
           </ul>
         </li>
 
@@ -289,45 +289,11 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Blank page
-        <small>it all starts here</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Examples</a></li>
-        <li class="active">Blank page</li>
-      </ol>
-    
-    </section>
+
 
     <!-- Main content -->
     <section class="content">
-
-      <!-- Default box -->
-      <div class="box">
-        <div class="box-header with-border">
-          <h3 class="box-title">Title</h3>
-
-          <div class="box-tools pull-right">
-            <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-              <i class="fa fa-minus"></i></button>
-            <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
-              <i class="fa fa-times"></i></button>
-          </div>
-        </div>
-        <div class="box-body">
-          Start creating your amazing application!
-        </div>
-        <!-- /.box-body -->
-        <div class="box-footer">
-          Footer
-        </div>
-        <!-- /.box-footer-->
-      </div>
-      <!-- /.box -->
-
+      @yield('contenido')
     </section>
     <!-- /.content -->
   </div>
