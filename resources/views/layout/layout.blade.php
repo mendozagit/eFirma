@@ -11,11 +11,21 @@
   <!-- Font Awesome -->
     <link rel="stylesheet" href="{{asset('fonts/font-awesome.min.css')}}">
   <!-- Iconos -->
+
   <link rel="stylesheet" href="{{asset('fonts/ionicons.min.css')}}">
   <!-- Tema admin -->
     <link rel="stylesheet" href="{{asset('admin/css/admin.css')}}">
   <!-- Skins-->
   <link rel="stylesheet" href="{{asset('admin/css/skins/_all-skins.min.css')}}">
+
+  <!--Date range picker -->
+  <link rel="stylesheet" href="{{asset('plugins/datepicker/css/bootstrap-datepicker.css')}}">
+
+  <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="{{asset('plugins/iCheck/all.css')}}">
+
+
+
 </head>
 
 <body class="hold-transition skin-purple sidebar-mini">
@@ -513,5 +523,37 @@
  <script src="{{asset('admin/js/app.min.js')}}"></script>
 <!-- Admin  2.4.2-->
  <script src="{{asset('admin/js/demo.js')}}"></script>
+<!-- Date range picker -->
+<script src="{{asset('plugins/datepicker/js/bootstrap-datepicker.js')}}"></script>
+<!-- iCheck 1.0.1 -->
+<script src="{{asset('plugins/iCheck/icheck.min.js')}}"></script>
+
+<script type="text/javascript">
+  $(function() {
+    console.log( "ready!" );
+
+      $('.input-group.date').datepicker({
+          clearBtn: true,
+          language: "es"
+      });
+      //iCheck for checkbox and radio inputs
+   $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
+     checkboxClass: 'icheckbox_minimal-blue',
+     radioClass   : 'iradio_minimal-blue'
+   })
+   //Red color scheme for iCheck
+   $('input[type="checkbox"].minimal-red, input[type="radio"].minimal-red').iCheck({
+     checkboxClass: 'icheckbox_minimal-red',
+     radioClass   : 'iradio_minimal-red'
+   })
+   //Flat red color scheme for iCheck
+   $('input[type="checkbox"].flat-red, input[type="radio"].flat-red').iCheck({
+     checkboxClass: 'icheckbox_flat-green',
+     radioClass   : 'iradio_flat-green'
+   })
+
+  });
+</script>
+
 </body>
 </html>
