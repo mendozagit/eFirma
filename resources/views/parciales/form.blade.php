@@ -1,83 +1,103 @@
-<div class="box">
+<!-- iCheck -->
+        <div class="box box-success">
             <div class="box-header">
-              <h3 class="box-title">Ingresa el número de control</h3>
+              <h3 class="box-title">Busqueda rápida de alumnos</h3>
             </div>
             <div class="box-body">
-              <!-- /input-group -->
 
-              <div class="input-group margin">
-                <input type="text" class="form-control">
+              <div class="input-group">
+                <input type="text" class="form-control"  placeholder="Ingrese el número de control...">
                     <span class="input-group-btn">
                       <button type="button" class="btn btn-info btn-flat">
-                        
+                        <i class="fa fa-user" aria-hidden="true"></i>
                       </button>
                     </span>
               </div>
-              <div class="input-group margin">
-                <input type="text" class="form-control">
+              <br>
+
+              <div class="input-group">
+                <input type="text" class="form-control"  placeholder="Jesús Mendoza Juárez, 7° Semestre, 183 Créditos.">
                     <span class="input-group-btn">
-                      <button type="button" class="btn btn-info btn-flat">Go!</button>
+                      <button type="button" class="btn btn-info btn-flat">
+                      <i class="fa fa-check" aria-hidden="true"></i>
+                      </button>
                     </span>
-              </div>
-
-
-              <!-- /input-group -->
-            </div>
-            <!-- /.box-body -->
-          </div>
-
-
-
-
-<!-- iCheck -->
-          <div class="box box-success">
-            <div class="box-header">
-              <h3 class="box-title">iCheck - Checkbox &amp; Radio Inputs</h3>
-            </div>
-            <div class="box-body">
-
-              <div class="form-group">
-
-                <div class="input-group date">
-                  <input type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
-                </div>
-              </div>
-
-
-
-
-              <!-- checkbox -->
-              <div class="form-group">
-                <label>
-                  <input type="checkbox" class="flat-red" checked>
-                </label>
-                <label>
-                  <input type="checkbox" class="flat-red">
-                </label>
-                <label>
-                  <input type="checkbox" class="flat-red" disabled>
-                  Flat green skin checkbox
-                </label>
-              </div>
-
-              <!-- radio -->
-              <div class="form-group">
-                <label>
-                  <input type="radio" name="r3" class="flat-red" checked>
-                </label>
-                <label>
-                  <input type="radio" name="r3" class="flat-red">
-                </label>
-                <label>
-                  <input type="radio" name="r3" class="flat-red" disabled>
-                  Flat green skin radio
-                </label>
               </div>
 
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              Many more skins available. <a href="http://fronteed.com/iCheck/">Documentation</a>
+              <button type="button" class="btn btn-success btn-lg">
+                <i class="fa fa-search" aria-hidden="true"></i>Buscar
+              </button>
+              <button type="button" class="btn btn-success btn-lg">
+                <i class="fa fa-eraser" aria-hidden="true"></i>Limpiar
+              </button>
             </div>
           </div>
           <!-- /.box -->
+
+          <!-- iCheck -->
+                  <div class="box box-success">
+                      <div class="box-header">
+                        <h3 class="box-title">Datos generales de la constancia</h3>
+                      </div>
+                      <div class="box-body">
+
+                        <div class="input-group date">
+                          <input type="text" class="form-control" placeholder="Seleccione una fecha">
+                              <span class="input-group-btn">
+                                <button type="button" class="btn btn-info btn-flat">
+                                  <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                                </button>
+                              </span>
+                        </div>
+                          <br>
+                        <div class="input-group">
+                          <input type="text" class="form-control"  placeholder="Indique el semestre inicial">
+                              <span class="input-group-btn">
+                                <button type="button" class="btn btn-info btn-flat">
+                                  <i class="fa fa-square-o" aria-hidden="true"></i>
+                                </button>
+                              </span>
+                        </div>
+                          <br>
+                        <div class="input-group">
+                          <input type="text" class="form-control"  placeholder="Indique el semestre final">
+                              <span class="input-group-btn">
+                                <button type="button" class="btn btn-info btn-flat">
+                                  <i class="fa fa-square-o" aria-hidden="true"></i>
+                                </button>
+                              </span>
+                        </div>
+                        <br>
+
+                        <!-- checkbox -->
+                        <div class="form-group">
+                          <label>
+                            <input type="checkbox" name="firma" class="flat-red" >
+                            Firma el director
+                          </label>
+                        </div>
+
+                        <div class="form-group">
+                          <label>
+                            <input type="checkbox" name="firma" class="flat-red" >
+                            Firma escolares
+                          </label>
+                        </div>
+
+
+
+                      </div>
+                      <!-- /.box-body -->
+                      <div class="box-footer">
+                        <button type="button" class="btn btn-success btn-lg">
+                          <i class="fa fa-search" aria-hidden="true"></i>Generar
+                        </button>
+                        <button type="button" class="btn btn-success btn-lg">
+                          <i class="fa fa-eraser" aria-hidden="true"></i>Limpiar
+                        </button>
+                      </div>
+                    </div>
+                    <!-- /.box -->
