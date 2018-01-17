@@ -9,7 +9,7 @@
       </h1>
     </section>
 
-     @include('parciales.form')
+     @include('parciales.formConstancias')
 
 
 @endsection
